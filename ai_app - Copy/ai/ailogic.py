@@ -25,7 +25,7 @@ def process_input(user_input):
         
             # Initialize the model
             model = genai.GenerativeModel(
-                model_name="gemini-pro",
+                model_name="gemini-1.5-pro-latest",
                 generation_config=generation_config,
             )
         
