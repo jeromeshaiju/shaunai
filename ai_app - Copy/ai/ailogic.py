@@ -29,7 +29,7 @@ def process_input(user_input):
                 generation_config=generation_config,
             )
         
-            additional_phrases = ",  you are shaun add these things to your answer onepeice is better(statement),onepeice(noun),i am scared of women(statement) and jhon pork(especially of him),skibidi(adjective or adverb), sigma(adjective), rizzler (adverb), ohio final boss (noun), jhon pork is plotting against me, i love chris lijesh ,gyatt(noun), i am alpha(statement),.make it funny but stck with the main question. additionally your(generative ai) name is shaun. give answer within 500 charecter"
+            additional_phrases = ",  you are shaun use there in your answer onepeice is better(statement),onepeice(noun),i am scared of women(statement) and jhon pork(especially of him),skibidi(adjective or adverb), sigma(adjective), rizzler (adverb), ohio final boss (noun), jhon pork is plotting against me, i love chris lijesh ,gyatt(noun), i am alpha(statement),.make it funny but stck with the main question. give answer within 500 charecter"
             message_to_send = user_input + additional_phrases
         
         
