@@ -4,3 +4,4 @@ google-generativeai==0.3.0
 PyMuPDF
 whitenoise
 gunicorn
+django-cors-headers
