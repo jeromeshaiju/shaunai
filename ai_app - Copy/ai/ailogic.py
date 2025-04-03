@@ -5,11 +5,8 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# Load environment variables from .env file
-load_dotenv()
 
-# Access the environment variable
-api_key = os.getenv("AI_API_KEY")
+api_key = os.environ.get("AI_API_KEY")
 
 # Configure the genai library with the API key
 genai.configure(api_key=api_key)
